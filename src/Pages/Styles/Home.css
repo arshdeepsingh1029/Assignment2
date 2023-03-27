@@ -1,0 +1,39 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 89vh;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 2em;
+  text-align: center;
+}
+
+.home-heading {
+  font-size: 2.6em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+  .home-heading {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-heading {
+    font-size: 1.5em;
+  }
+
+}
